@@ -289,6 +289,9 @@ position: relative;
 }
 .div-footer-socmedia{
     left: 350px;
+    display: inline;
+    display: flex;
+    justify-content: center;
     
 }
 .icon-footer {
