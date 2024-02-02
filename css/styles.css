@@ -263,6 +263,9 @@ font-weight: 500;
     color: #F4F4FD;
     padding: 100px 0;
 }
+.footer-container {
+display: flex;
+}
 .logo-down {
     color: #4D5AE5;
 font-family: Raleway, sans-serif;
@@ -284,18 +287,15 @@ position: relative;
     letter-spacing: 0.02em;
     display: block;
     max-width: 264px;
-    position: relative;
     
 }
 .div-footer-socmedia{
-    left: 350px;
-    display: flex;
-    justify-content: center;
+        
         
 }
 .icon-footer {
-    transform: translate ( 100px 100px);
-    
+ display: flex; 
+ gap: 16px;  
     
 }
 .social-media {
@@ -304,14 +304,10 @@ font-style: normal;
 font-weight: 500;
 line-height: 24px; /* 150% */
 letter-spacing: 0.32px;
+
 }
     
 .icon {
-    align-items: flex-start;
-    gap: 16px;  
-    display: inline;
-    justify-content: center;
-    top: 150px;
-    
+     
        
 }
