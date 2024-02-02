@@ -289,13 +289,13 @@ position: relative;
 }
 .div-footer-socmedia{
     left: 350px;
-    display: inline;
     display: flex;
     justify-content: center;
-    
+        
 }
 .icon-footer {
     transform: translate ( 100px 100px);
+    
     
 }
 .social-media {
@@ -307,8 +307,11 @@ letter-spacing: 0.32px;
 }
     
 .icon {
-    display: inline-flex;
     align-items: flex-start;
     gap: 16px;  
+    display: inline;
+    justify-content: center;
+    top: 150px;
+    
        
 }
