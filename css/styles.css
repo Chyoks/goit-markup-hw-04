@@ -223,7 +223,7 @@ text-align: center;
 .section-third-line {
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4); 
-    height: 380px;
+    height: 428px;
     border-radius: 0px 0px 4px 4px;
     margin: 0 auto;
 }
@@ -308,7 +308,9 @@ letter-spacing: 0.02em;
 color: #ffffff;
 text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 margin-bottom: 10px;
-text-align: center;
+display: inline-block;
+
+
 }
 .social-list-link{
     display: flex;
@@ -320,8 +322,33 @@ text-align: center;
     background-color: #4D5AE5;
     fill: #ffffff;
 }
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon {
+    background-color: ;
+}
+
 .social-list{
     display: flex;
-    gap: 8px;
-    text-align: center;
+    justify-content: center;
+    gap: 10px;
+    
+   
+} 
+.footer-media{
+       align-items: baseline;
+       justify-content: center;
+       display: block;
+       bottom: 60px;
+       position: relative;
+}
+.footer-title{
+    position: absolute;
+    content: "";
+    left: 500px;
+    bottom: 60px;
+
+   } 
+.social-list-item{
+    
+  
 }
