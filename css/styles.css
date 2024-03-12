@@ -177,7 +177,7 @@ font-size: 20px;
 font-weight: 500;
 line-height: 1.2; 
 letter-spacing: 0.02em;
-margin-top: 8px;
+margin-top: 8pxfigma;
 margin-bottom: 8px;
 flex-direction: column;
 justify-content: center;
@@ -250,6 +250,26 @@ text-align: center;
 }
 .section-fourth {
     padding: 120px 0 120px 0;
+}
+.underlay{
+    position: relative;
+}
+.text-overlay{
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+letter-spacing: 0.02em;
+color: #F4F4FD;
+display: block;
+padding: 20px 20px;
+background-color: #4D5AE5;
+width: 360px;
+height: 300px;
+border: 1px solid #000;
+position: absolute;
+left: 0;
+top: 0;
 }
 .our-portfolio {
     text-align: center;
@@ -338,7 +358,7 @@ display: inline-block;
 }
 .social-list-link:hover .social-list-icon,
 .social-list-link:focus .social-list-icon {
-    background-color: ;
+    background-color: #F4F4FD;
 }
 
 .social-list{
