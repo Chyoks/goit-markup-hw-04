@@ -356,10 +356,16 @@ display: inline-block;
     background-color: #4D5AE5;
     fill: #ffffff;
 }
-.social-list-link:hover .social-list-icon,
-.social-list-link:focus .social-list-icon {
-    background-color: #F4F4FD;
+.social-list-link:hover,
+.social-list-link:focus {
+    background-color: #404BBF;
 }
+.social-list-link-color:hover,
+.social-list-link-color:focus {
+    background-color: #31D0AA;
+}
+    
+
 
 .social-list{
     display: flex;
