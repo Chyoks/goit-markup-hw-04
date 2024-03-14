@@ -27,7 +27,7 @@ img {
 .header {
     border-bottom: 1px solid #E7E9FC;
     background: #FFF;
-    box-shadow:  0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); 
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); 
 }
 .header-container {
     display: flex;
@@ -50,7 +50,7 @@ margin-right: 76px;
 .logo-part {
     color: #2E2F42;
 }
-.nav-list{
+.nav-list {
     display: flex;
     gap: 40px;
 }
@@ -362,7 +362,7 @@ display: inline-block;
 
 
 }
-.social-list-link{
+.social-list-link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -413,3 +413,5 @@ display: inline-block;
     justify-content: center;   
   
 }
+
+    
