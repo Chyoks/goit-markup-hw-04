@@ -112,7 +112,7 @@ color: #404BBF;
     background-size: cover;
     background-position: center;
     margin: 0 auto;
-    width: 1440px;
+    max-width: 1440px;
     height: 600px;
    
    
@@ -329,6 +329,9 @@ font-weight: 500;
     color: #F4F4FD;
     padding: 100px 0;
 }
+.div-logo-footer{
+    margin-right: 120px;  
+}
 .logo-down {
     color: #4D5AE5;
 font-family: Raleway, sans-serif;
@@ -349,6 +352,8 @@ margin-bottom: 16px;
     letter-spacing: 0.02em;
     display: block;
     max-width: 264px;
+    color: #ffffff;
+    margin-bottom: 16px;
 }
 .footer-title{
 font-weight: 500;
@@ -411,7 +416,7 @@ display: inline-block;
 .social-list-item{
     display: flex;
     justify-content: center;   
-  
+    
 }
 
     
