@@ -329,8 +329,12 @@ font-weight: 500;
     color: #F4F4FD;
     padding: 100px 0;
 }
+.div-footer {
+    margin-right: 120px;
+    align-items: baseline;   
+}
 .div-logo-footer{
-    margin-right: 120px;  
+    
 }
 .logo-down {
     color: #4D5AE5;
