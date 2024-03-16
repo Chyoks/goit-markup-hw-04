@@ -201,6 +201,7 @@ gap: 8px;
     align-items: center;
     border: 1px solid var(--light-slate);
     border-radius: 4px;
+    border: 1px solid #8e8f99;
     width: 264px;
     height: 112px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
@@ -248,6 +249,10 @@ text-align: center;
     border-radius: 0px 0px 4px 4px;
     margin: 0 auto;
 }
+.social-list-section-third {
+    gap: 24px; 
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+}
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
@@ -271,7 +276,7 @@ text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 letter-spacing: 0.02em;
 color: #F4F4FD;
 display: block;
-padding: 20px 20px;
+padding: 40px 32px;
 background-color: #4D5AE5;
 width: 360px;
 height: 300px;
@@ -280,7 +285,8 @@ position: absolute;
 left: 0;
 top: 0;
 transform: translateY(100%);
-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
 }
 
 .our-portfolio {
@@ -298,8 +304,8 @@ width: calc((100% - 48px) / 3);
 transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 .section-fourth-line:hover .text-overlay{
-    transform: translateY(0%);
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+ transform: translateY(0%);
+ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .div-section-fourth {
     padding: 32px 16px;
@@ -331,10 +337,12 @@ font-weight: 500;
 }
 .div-footer {
     margin-right: 120px;
-    align-items: baseline;   
+    align-items: baseline; 
+    display: flex;
+    gap: 24px; 
 }
 .div-logo-footer{
-    
+    margin-right: 120px  
 }
 .logo-down {
     color: #4D5AE5;
@@ -380,7 +388,7 @@ display: inline-block;
     border-radius: 50%;
     background-color: #4D5AE5;
     fill: #ffffff;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-list-link:hover,
 .social-list-link:focus {
@@ -396,7 +404,7 @@ display: inline-block;
 .social-list{
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 16px;
     
    
 } 
@@ -421,6 +429,9 @@ display: inline-block;
     display: flex;
     justify-content: center;   
     
+}
+.social-list-icon {
+    fill: #F4F4FD;
 }
 
     
