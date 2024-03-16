@@ -342,10 +342,12 @@ font-weight: 500;
     align-items: baseline; 
     display: flex;
     gap: 24px;
-    margin-right: 120px; 
     
 }
-  
+.div-logo-footer{
+    margin-right: 120px;
+    display: flex;   
+}
 .logo-down {
     color: #4D5AE5;
 font-family: Raleway, sans-serif;
