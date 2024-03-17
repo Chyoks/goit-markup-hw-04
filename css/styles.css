@@ -330,9 +330,13 @@ font-weight: 500;
 .section-skill-par-fourth {
    
     }
-.img-fourth {
-    margin: 0 auto;
-}
+
+    .img-fourth-card-first {
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    }
+    .img-fourth-card-first:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08)
+    }
 .footer{
     background-color: #2E2F42;
     color: #F4F4FD;
