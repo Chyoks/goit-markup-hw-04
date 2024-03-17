@@ -342,11 +342,15 @@ font-weight: 500;
     align-items: baseline; 
     display: flex;
     gap: 24px;
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto; 
     
 }
 .div-logo-footer{
     margin-right: 120px;
-    display: flex;   
+    display: flex; 
+    
 }
 .logo-down {
     color: #4D5AE5;
@@ -418,6 +422,7 @@ display: inline-block;
        display: block;
        bottom: 60px;
        position: relative;
+      
 }
 .footer-title{
     position: absolute;
