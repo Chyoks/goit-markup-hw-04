@@ -290,8 +290,8 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .our-portfolio {
-    text-align: center;
-    margin-bottom: 72px;
+text-align: center;
+margin-bottom: 72px;
 font-size: 36px;
 font-style: normal;
 font-weight: 700;
@@ -307,7 +307,7 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1)
  transform: translateY(0%);
  
 }
-.text-overlay:hover{
+.section-fourth:hover{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
 }
 .div-section-fourth {
@@ -316,8 +316,8 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1)
     border-top: none;
      }
 .skill-title-fourth {
-    margin-bottom: 8px;
-    color: #2E2F42 ;
+margin-bottom: 8px;
+color: #2E2F42 ;
 font-family: Roboto;
 font-size: 20px;
 font-style: normal;
